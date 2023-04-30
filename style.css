@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+font-family: 'Outfit', sans-serif;
+font-size: 15px;
+background-color: hsl(212, 45%, 89%);
+}
+
+
+main{
+
+  max-width: 360px;
+    margin: 0 auto;
+}
+
+.card{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 15px;
+gap: 18px;
+background:hsl(0, 0%, 100%);
+box-shadow: -3px 32px 47px -6px rgba(0, 0, 0, 0.1);
+border-radius: 20px;
+
+}
+
+img{
+
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+p#p2{
+  font-size: 15px;
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 16px;;
+   color: hsl(220, 15%, 55%);
+}
+
+ h1#p1{
+  padding: 0px;
+ margin: 0px;
+ color: hsl(218, 44%, 22%);
+ font-size: 20px;
+
+}
